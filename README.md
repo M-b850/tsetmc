@@ -9,8 +9,8 @@ This tool allows you to collect data from http://tsetmc.ir and create a list of 
 2. cd tsetmc/
 3. python3 -m virtualenv venv
 4. source venv/bin/activate
-5. pip install requirements.txt
-6. ./manage.py makemigrations  
+5. pip install -r requirements.txt
+6. ./manage.py migrate  
 7. ./manage.py collect_data
 8. ./mange.py runserver
 
