@@ -12,7 +12,7 @@ This tool allows you to collect data from http://tsetmc.ir and create a list of 
 5. pip install -r requirements.txt
 6. ./manage.py migrate  
 7. ./manage.py collect_data
-8. ./mange.py runserver
+8. ./manage.py runserver
 
 ~~~~~~~~~~~~~~~~
 
